@@ -3,5 +3,9 @@
 ################################################################################
 
 /src/Web.CoreApp/wwwroot/lib
+/src/Web.CoreApp/bin
+/src/Web.CoreApp/obj
+/src/Web.CoreApp.Tests/bin
+/src/Web.CoreApp.Tests/obj
 
 
