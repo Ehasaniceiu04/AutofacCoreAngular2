@@ -35,7 +35,7 @@ namespace Web.CoreApp
             services.AddMvc();
             services.AddDbContext<EngineerContext>(options => options.UseSqlServer(@"server = localhost; database = IdentityServer4; trusted_connection = yes"));
             var containerBuilder = new ContainerBuilder();
-            containerBuilder.RegisterModule<DefaultModule>();
+            containerBuilder.RegisterModule<AutoFacModule>();
             containerBuilder.Populate(services);
             var container = containerBuilder.Build();
             return new AutofacServiceProvider(container);
