@@ -10,10 +10,12 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyProduct("Web.CoreApp.Tests")]
 [assembly: AssemblyTrademark("")]
 
+
+
 // Setting ComVisible to false makes the types in this assembly not visible
 // to COM components.  If you need to access a type in this assembly from
 // COM, set the ComVisible attribute to true on that type.
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("ed8873e4-145b-4ecc-8735-1cc655907b5b")]
+[assembly: Guid("9c124e6d-d9cd-4dc8-a0ea-b7776daf347a")]
