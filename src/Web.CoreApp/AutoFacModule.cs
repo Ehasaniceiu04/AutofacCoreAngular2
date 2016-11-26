@@ -1,6 +1,7 @@
 ﻿using Autofac;
 using Web.CoreApp.Model;
 using Web.CoreApp.Repository;
+using Web.CoreApp.UnitOfWork;
 
 namespace Web.CoreApp
 {
@@ -12,7 +13,8 @@ namespace Web.CoreApp
             builder.RegisterGeneric(typeof(Repository<>)).As(typeof(IRepository<>));
             builder.RegisterType<EngineerRepository>().As<IEngineerRepository>();
             builder.RegisterType<ExperienceRepository>().As<IExperienceRepository>();
-            builder.RegisterType<EngineerContext>();
+            builder.RegisterType<EngineerContext>().InstancePerLifetimeScope();
+            builder.RegisterType<IUnitOfWork>().As<EFUnitOfWork>();
         }
     }
 }
