@@ -3,7 +3,7 @@
 
 ##Repository Pattern
 
-As Patterns of Enterprise Application Architecture by Martin Flower
+Martin Flower states in his book "Patterns of Enterprise Application Architecture"
 
 A Repository mediates between the domain and data mapping layers, acting like an in-memory domain object
 collection. Client objects construct query specifications declaratively and submit them to Repository for
