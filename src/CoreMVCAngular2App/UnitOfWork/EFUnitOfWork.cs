@@ -6,7 +6,7 @@ using Web.CoreApp.Model;
 
 namespace Web.CoreApp
 {
-    public class EFUnitOfWork : IEFUnitOfWork,IDisposable
+    public class EFUnitOfWork : IUnitOfWork,IDisposable
     {
         private readonly EngineerContext _engineerContext;
         private bool disposed = false;
@@ -15,7 +15,7 @@ namespace Web.CoreApp
             _engineerContext = engineerContext;
         }
 
-        void IEFUnitOfWork.Commit()
+        void IUnitOfWork.Commit()
         {
             _engineerContext.SaveChanges();
         }

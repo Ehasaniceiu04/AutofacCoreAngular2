@@ -14,6 +14,7 @@ namespace Web.CoreApp
             builder.RegisterType<EngineerRepository>().As<IEngineerRepository>();
             builder.RegisterType<ExperienceRepository>().As<IExperienceRepository>();
             builder.RegisterType<EngineerContext>().InstancePerLifetimeScope();
+            builder.RegisterType<EFUnitOfWork>().As<IUnitOfWork>();
             
         }
     }

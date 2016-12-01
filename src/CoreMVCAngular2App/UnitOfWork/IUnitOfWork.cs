@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace Web.CoreApp
 { 
-    interface IEFUnitOfWork
+    interface IUnitOfWork
     {
         void Commit();
     }
