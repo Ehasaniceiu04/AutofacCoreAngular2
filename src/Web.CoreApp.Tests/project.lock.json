@@ -4054,7 +4054,7 @@
           "lib/netstandard1.1/xunit.runner.utility.dotnet.dll": {}
         }
       },
-      "CoreMVCAngular2App/1.0.0": {
+      "Web.CoreApp/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v1.0",
         "dependencies": {
@@ -4072,6 +4072,12 @@
           "Microsoft.TypeScript.Compiler": "2.1.1-rc",
           "Microsoft.TypeScript.MSBuild": "2.1.1-rc",
           "Microsoft.VisualStudio.Web.BrowserLink.Loader": "14.1.0"
+        },
+        "compile": {
+          "netcoreapp1.0/Web.CoreApp.dll": {}
+        },
+        "runtime": {
+          "netcoreapp1.0/Web.CoreApp.dll": {}
         }
       }
     }
@@ -10663,14 +10669,15 @@
         "xunit.runner.utility.nuspec"
       ]
     },
-    "CoreMVCAngular2App/1.0.0": {
+    "Web.CoreApp/1.0.0": {
       "type": "project",
-      "path": "../CoreMVCAngular2App/project.json"
+      "path": "../Web.CoreApp/project.json",
+      "msbuildProject": "../Web.CoreApp/Web.CoreApp.xproj"
     }
   },
   "projectFileDependencyGroups": {
     "": [
-      "CoreMVCAngular2App >= 1.0.0-*",
+      "Web.CoreApp >= 1.0.0-*",
       "dotnet-test-xunit >= 2.2.0-preview2-build1029",
       "xunit >= 2.2.0-beta2-build3300"
     ],
