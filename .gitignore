@@ -9,3 +9,8 @@
 /src/Web.CoreApp.Tests/obj
 
 
+/src/CoreMVCAngular2App/node_modules
+/src/CoreMVCAngular2App/obj/Debug/netcoreapp1.0
+/src/CoreMVCAngular2App/bin/Debug/netcoreapp1.0
+/src/CoreMVCAngular2App/typings
+/src/CoreMVCAngular2App/wwwroot/app

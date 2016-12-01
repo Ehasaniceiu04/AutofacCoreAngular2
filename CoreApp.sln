@@ -10,9 +10,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		global.json = global.json
 	EndProjectSection
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Web.CoreApp", "src\Web.CoreApp\Web.CoreApp.xproj", "{0A987020-4EBB-46D1-9643-85465F5F23E7}"
-EndProject
 Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Web.CoreApp.Tests", "src\Web.CoreApp.Tests\Web.CoreApp.Tests.xproj", "{9C124E6D-D9CD-4DC8-A0EA-B7776DAF347A}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "CoreMVCAngular2", "src\CoreMVCAngular2App\CoreMVCAngular2.xproj", "{2E3F5C2F-5741-47D6-B05E-3F97FE9CC024}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -20,19 +20,20 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{0A987020-4EBB-46D1-9643-85465F5F23E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0A987020-4EBB-46D1-9643-85465F5F23E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0A987020-4EBB-46D1-9643-85465F5F23E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0A987020-4EBB-46D1-9643-85465F5F23E7}.Release|Any CPU.Build.0 = Release|Any CPU
 		{9C124E6D-D9CD-4DC8-A0EA-B7776DAF347A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{9C124E6D-D9CD-4DC8-A0EA-B7776DAF347A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9C124E6D-D9CD-4DC8-A0EA-B7776DAF347A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9C124E6D-D9CD-4DC8-A0EA-B7776DAF347A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E3F5C2F-5741-47D6-B05E-3F97FE9CC024}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E3F5C2F-5741-47D6-B05E-3F97FE9CC024}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E3F5C2F-5741-47D6-B05E-3F97FE9CC024}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E3F5C2F-5741-47D6-B05E-3F97FE9CC024}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{0A987020-4EBB-46D1-9643-85465F5F23E7} = {89B6B8A7-2771-4979-BA13-4CF5F7CA3C21}
+		{9C124E6D-D9CD-4DC8-A0EA-B7776DAF347A} = {89B6B8A7-2771-4979-BA13-4CF5F7CA3C21}
+		{2E3F5C2F-5741-47D6-B05E-3F97FE9CC024} = {89B6B8A7-2771-4979-BA13-4CF5F7CA3C21}
 	EndGlobalSection
 EndGlobal
