@@ -37,9 +37,10 @@ namespace Web.CoreApp.Repository
             return _context.Set<TEntity>().Where(predicate).ToList();
         }
 
-        public void Add(TEntity entity)
+        public TEntity Add(TEntity entity)
         {
             _context.Set<TEntity>().Add(entity);
+            return entity;
         }
 
         public void AddRange(IEnumerable<TEntity> entities)

@@ -10,7 +10,7 @@ namespace Web.CoreApp.Repository
         IEnumerable<TEntity> GetAll();
         TEntity Get(Expression<Func<TEntity, bool>> filter);
         IEnumerable<TEntity> GetAll(Expression<Func<TEntity, bool>> predicate);
-        void Add(TEntity entity);
+        TEntity Add(TEntity entity);
 
         void AddRange(IEnumerable<TEntity> entityCollection);
 

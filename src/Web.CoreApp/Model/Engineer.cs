@@ -11,7 +11,7 @@ namespace Web.CoreApp.Model
         public string Name { get; set; }
         public string FatherName { get; set; }
         public string MotherName { get; set; }
-        public int DateOfBirth { get; set; }
+        public DateTime DateOfBirth { get; set; }
         public ICollection<Experience> Experiences { get; set; }
 
     }

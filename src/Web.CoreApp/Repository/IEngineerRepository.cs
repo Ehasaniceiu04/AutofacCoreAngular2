@@ -6,7 +6,7 @@ using Web.CoreApp.Model;
 
 namespace Web.CoreApp.Repository
 {
-    public interface IEngineerRepository:IRepository<Engineer>
+    interface IEngineerRepository:IRepository<Engineer>
     {
         IEnumerable<Engineer> GetEngineerWithCourses();
 

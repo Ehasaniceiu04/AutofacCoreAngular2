@@ -31,7 +31,7 @@ namespace CoreMVCApp
         public IServiceProvider ConfigureServices(IServiceCollection services)
         {
             services.AddMvc();
-            services.AddDbContext<EngineerContext>(options => options.UseSqlServer(@"server = localhost; database = IdentityServer4; trusted_connection = yes"));
+            services.AddDbContext<EngineerContext>(options => options.UseSqlServer(@"Server=localhost;Database=EngineerDb;Trusted_Connection=True;"));
             var containerBuilder = new ContainerBuilder();
             containerBuilder.RegisterModule<AutoFacModule>();
             containerBuilder.Populate(services);
