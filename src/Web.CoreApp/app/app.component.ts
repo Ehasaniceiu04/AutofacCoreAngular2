@@ -2,6 +2,8 @@
 
 @Component({
     selector: 'my-app',
-    template: `<h1>Hello {{name}}</h1>`
+    template: `<h1>Hello {{name}}</h1>
+   <engineer-add></engineer-add>
+`
 })
-export class AppComponent { name = 'Angular'; }
+export class AppComponent { name = 'Angular2 from app.component'; }

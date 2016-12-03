@@ -26,6 +26,8 @@ namespace CoreMVCApp.Controllers
         {
            
             ViewBag.Title = "MVC Core with Angular 2";
+            // TODO: for testing purposes add is called from here
+            //After development of add functionality it will move from here.
             _engineerManager.Add();
             return View();
         }
